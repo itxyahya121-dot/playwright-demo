@@ -1,0 +1,2766 @@
+{
+    "flag": true,
+    "code": 200,
+    "message": "Success",
+    "data": {
+        "airSearchResponses": [
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "PA",
+                        "platingCarrierName": "M/S Airblue Ltd",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 9:00:00 AM",
+                                "arrival": "7/28/2026 11:05:00 AM",
+                                "airline": "M/S Airblue Ltd",
+                                "flightNumber": "201",
+                                "segmentCodeRef": "424174ab-0486-48a4-b629-3aa9de07970f",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 9:00:00 AM",
+                                        "arrival": "7/28/2026 11:05:00 AM",
+                                        "flightTime": "125",
+                                        "travelTime": "125",
+                                        "equipment": "A321"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "A321"
+                                ],
+                                "duration": [
+                                    "125"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "U",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "EVTAOWU",
+                                "airlineCode": "PA"
+                            }
+                        ],
+                        "directionTotalTime": "125",
+                        "brandName": "value",
+                        "directionCodeRef": "8c5dd554-51ee-4d1b-b1c7-78bd210b5d01"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 27050.00,
+                        "basePrice": 17030,
+                        "equivalentBasePrice": 17030,
+                        "taxes": 10020,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 22792.00,
+                        "basePrice": 12772,
+                        "equivalentBasePrice": 12772,
+                        "taxes": 10020,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3248.00,
+                        "basePrice": 1703,
+                        "equivalentBasePrice": 1703,
+                        "taxes": 1545,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "dc55ce14-81fb-4ee5-89d6-5be3b56d3717",
+                "totalPrice": 80140.00,
+                "basePrice": 48535,
+                "eqivqlBasePrice": 48535,
+                "taxes": 31605,
+                "platingCarrierName": "M/S Airblue Ltd",
+                "platingCarrier": "PA",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": true,
+                "bookable": true,
+                "avlSrc": "138",
+                "isBrandedFare": false,
+                "parentIDofBrandedFare": null
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "PA",
+                        "platingCarrierName": "M/S Airblue Ltd",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 4:45:00 PM",
+                                "arrival": "7/28/2026 6:50:00 PM",
+                                "airline": "M/S Airblue Ltd",
+                                "flightNumber": "207",
+                                "segmentCodeRef": "e01e29c2-fe99-4715-80ca-d53da05bd037",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 4:45:00 PM",
+                                        "arrival": "7/28/2026 6:50:00 PM",
+                                        "flightTime": "125",
+                                        "travelTime": "125",
+                                        "equipment": "A321"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "A321"
+                                ],
+                                "duration": [
+                                    "125"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "U",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "EVTAOWU",
+                                "airlineCode": "PA"
+                            }
+                        ],
+                        "directionTotalTime": "125",
+                        "brandName": "value",
+                        "directionCodeRef": "6638d45e-1a2d-475e-a5f0-070bbda4c840"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 27050.00,
+                        "basePrice": 17030,
+                        "equivalentBasePrice": 17030,
+                        "taxes": 10020,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 22792.00,
+                        "basePrice": 12772,
+                        "equivalentBasePrice": 12772,
+                        "taxes": 10020,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3248.00,
+                        "basePrice": 1703,
+                        "equivalentBasePrice": 1703,
+                        "taxes": 1545,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "be703022-8791-4d41-a01c-d6effe6f2079",
+                "totalPrice": 80140.00,
+                "basePrice": 48535,
+                "equivalentBasePrice": 48535,
+                "taxes": 31605,
+                "platingCarrierName": "M/S Airblue Ltd",
+                "platingCarrier": "PA",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": true,
+                "bookable": true,
+                "avlSrc": "138",
+                "isBrandedFare": false,
+                "parentIDofBrandedFare": null
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 9:35:00 AM",
+                                "arrival": "7/28/2026 11:35:00 AM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-671",
+                                "segmentCodeRef": "5a3bb281-1d37-43bf-8f5c-4d2c8e1aee05",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 9:35:00 AM",
+                                        "arrival": "7/28/2026 11:35:00 AM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 0,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 0,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Basic",
+                        "directionCodeRef": "81ab7a01-c372-474a-8a32-3a4349a68746"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 26279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 4338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 26279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 4338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "e6218227-d749-4baa-b66b-8a213237632a",
+                "totalPrice": 82575.00,
+                "basePrice": 68012.76,
+                "equivalentBasePrice": 68012.76,
+                "taxes": 14561.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": false,
+                "parentIDofBrandedFare": null
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 11:45:00 PM",
+                                "arrival": "7/29/2026 1:45:00 AM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-679",
+                                "segmentCodeRef": "dcbf455c-84a3-4d39-9f0c-b6e0ab1acfb3",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 11:45:00 PM",
+                                        "arrival": "7/29/2026 1:45:00 AM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 0,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 0,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Basic",
+                        "directionCodeRef": "b043847b-ca6d-4b69-b02c-240b8fa7432a"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 26279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 4338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 26279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 4338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "b027c8a2-1f28-4d07-ad35-1a6b47e7b4d8",
+                "totalPrice": 82575.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 14561.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": false,
+                "parentIDofBrandedFare": null
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 9:20:00 PM",
+                                "arrival": "7/28/2026 11:20:00 PM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-675",
+                                "segmentCodeRef": "3bed11c3-8e85-487d-9d66-4f027ba6afd3",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 9:20:00 PM",
+                                        "arrival": "7/28/2026 11:20:00 PM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 0,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 0,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Basic",
+                        "directionCodeRef": "9688988d-d721-4426-88ae-3e14322c9473"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 26279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 4338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 26279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 4338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "172a2235-9f9f-445b-935a-dc25c43c87f9",
+                "totalPrice": 82575.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 14561.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": false,
+                "parentIDofBrandedFare": null
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 5:15:00 PM",
+                                "arrival": "7/28/2026 7:15:00 PM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-673",
+                                "segmentCodeRef": "fce345b0-de37-4053-be17-5bdd67fba04e",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 5:15:00 PM",
+                                        "arrival": "7/28/2026 7:15:00 PM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 0,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 0,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Basic",
+                        "directionCodeRef": "47109b21-44bb-41a4-9050-0e1bcb3329ed"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 26279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 4338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 26279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 4338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "c831289f-17d7-421e-8a97-f1519e78fefb",
+                "totalPrice": 82575.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 14561.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": false,
+                "parentIDofBrandedFare": null
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 2:45:00 PM",
+                                "arrival": "7/28/2026 4:45:00 PM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-681",
+                                "segmentCodeRef": "243896e4-79fc-4e8b-9a10-afc322d9e83a",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 2:45:00 PM",
+                                        "arrival": "7/28/2026 4:45:00 PM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 0,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 0,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Basic",
+                        "directionCodeRef": "ac4203bb-72d1-4f4c-ad6a-887b6a52414e"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 26279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 4338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 26279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 4338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "eed58e1f-f986-46b4-bafb-591696cec625",
+                "totalPrice": 82575.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 14561.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": false,
+                "parentIDofBrandedFare": null
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "PA",
+                        "platingCarrierName": "M/S Airblue Ltd",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 9:00:00 AM",
+                                "arrival": "7/28/2026 11:05:00 AM",
+                                "airline": "M/S Airblue Ltd",
+                                "flightNumber": "201",
+                                "segmentCodeRef": "9c7ec717-d533-4aef-9fc5-54f4e612128b",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 9:00:00 AM",
+                                        "arrival": "7/28/2026 11:05:00 AM",
+                                        "flightTime": "125",
+                                        "travelTime": "125",
+                                        "equipment": "A321"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "A321"
+                                ],
+                                "duration": [
+                                    "125"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "U",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "KGS",
+                                        "amount": 20,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "KGS",
+                                        "amount": 20,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "EVTAOWU",
+                                "airlineCode": "PA"
+                            }
+                        ],
+                        "directionTotalTime": "125",
+                        "brandName": "flexi",
+                        "directionCodeRef": "cb0214e0-a24d-470f-a5d2-3ede3380fbe2"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 28050.00,
+                        "basePrice": 18030,
+                        "equivalentBasePrice": 18030,
+                        "taxes": 10020,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 23542.00,
+                        "basePrice": 13522,
+                        "equivalentBasePrice": 13522,
+                        "taxes": 10020,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3348.00,
+                        "basePrice": 1803,
+                        "equivalentBasePrice": 1803,
+                        "taxes": 1545,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "62af6314-9230-4052-85c9-ed9468fcc5c9",
+                "totalPrice": 82990.00,
+                "basePrice": 51385,
+                "eqivqlBasePrice": 51385,
+                "taxes": 31605,
+                "platingCarrierName": "M/S Airblue Ltd",
+                "platingCarrier": "PA",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": true,
+                "bookable": true,
+                "avlSrc": "138",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "dc55ce14-81fb-4ee5-89d6-5be3b56d3717"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "PA",
+                        "platingCarrierName": "M/S Airblue Ltd",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 4:45:00 PM",
+                                "arrival": "7/28/2026 6:50:00 PM",
+                                "airline": "M/S Airblue Ltd",
+                                "flightNumber": "207",
+                                "segmentCodeRef": "f8c15ad9-3705-46b1-9d59-13b411d4eea0",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 4:45:00 PM",
+                                        "arrival": "7/28/2026 6:50:00 PM",
+                                        "flightTime": "125",
+                                        "travelTime": "125",
+                                        "equipment": "A321"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "A321"
+                                ],
+                                "duration": [
+                                    "125"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "U",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "KGS",
+                                        "amount": 20,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "KGS",
+                                        "amount": 20,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "EVTAOWU",
+                                "airlineCode": "PA"
+                            }
+                        ],
+                        "directionTotalTime": "125",
+                        "brandName": "flexi",
+                        "directionCodeRef": "4a7e4258-566f-4a83-ac1e-1a4220f8d22e"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 28050.00,
+                        "basePrice": 18030,
+                        "equivalentBasePrice": 18030,
+                        "taxes": 10020,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 23542.00,
+                        "basePrice": 13522,
+                        "equivalentBasePrice": 13522,
+                        "taxes": 10020,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3348.00,
+                        "basePrice": 1803,
+                        "equivalentBasePrice": 1803,
+                        "taxes": 1545,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "2a83fe8d-3693-4cbc-be60-1fea04b6c67f",
+                "totalPrice": 82990.00,
+                "basePrice": 51385,
+                "eqivqlBasePrice": 51385,
+                "taxes": 31605,
+                "platingCarrierName": "M/S Airblue Ltd",
+                "platingCarrier": "PA",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": true,
+                "bookable": true,
+                "avlSrc": "138",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "be703022-8791-4d41-a01c-d6effe6f2079"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "PA",
+                        "platingCarrierName": "M/S Airblue Ltd",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 9:00:00 AM",
+                                "arrival": "7/28/2026 11:05:00 AM",
+                                "airline": "M/S Airblue Ltd",
+                                "flightNumber": "201",
+                                "segmentCodeRef": "cb83383c-5d38-4d3d-8afa-af8806883864",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 9:00:00 AM",
+                                        "arrival": "7/28/2026 11:05:00 AM",
+                                        "flightTime": "125",
+                                        "travelTime": "125",
+                                        "equipment": "A321"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "A321"
+                                ],
+                                "duration": [
+                                    "125"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "U",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "KGS",
+                                        "amount": 30,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "KGS",
+                                        "amount": 30,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "EVTAOWU",
+                                "airlineCode": "PA"
+                            }
+                        ],
+                        "directionTotalTime": "125",
+                        "brandName": "xtra",
+                        "directionCodeRef": "00924ca1-9991-4252-8e67-cbd26c4e9afd"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 29150.00,
+                        "basePrice": 19130,
+                        "equivalentBasePrice": 19130,
+                        "taxes": 10020,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 24368.00,
+                        "basePrice": 14348,
+                        "equivalentBasePrice": 14348,
+                        "taxes": 10020,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3458.00,
+                        "basePrice": 1913,
+                        "equivalentBasePrice": 1913,
+                        "taxes": 1545,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "31cdf834-c79d-437d-bb4c-aed1dd10386f",
+                "totalPrice": 86126.00,
+                "basePrice": 54521,
+                "eqivqlBasePrice": 54521,
+                "taxes": 31605,
+                "platingCarrierName": "M/S Airblue Ltd",
+                "platingCarrier": "PA",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": true,
+                "bookable": true,
+                "avlSrc": "138",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "dc55ce14-81fb-4ee5-89d6-5be3b56d3717"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "PA",
+                        "platingCarrierName": "M/S Airblue Ltd",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 4:45:00 PM",
+                                "arrival": "7/28/2026 6:50:00 PM",
+                                "airline": "M/S Airblue Ltd",
+                                "flightNumber": "207",
+                                "segmentCodeRef": "ed09e18c-6a61-49a0-a24d-27c89f3c3a20",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 4:45:00 PM",
+                                        "arrival": "7/28/2026 6:50:00 PM",
+                                        "flightTime": "125",
+                                        "travelTime": "125",
+                                        "equipment": "A321"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "A321"
+                                ],
+                                "duration": [
+                                    "125"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "U",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "KGS",
+                                        "amount": 30,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "KGS",
+                                        "amount": 30,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "EVTAOWU",
+                                "airlineCode": "PA"
+                            }
+                        ],
+                        "directionTotalTime": "125",
+                        "brandName": "xtra",
+                        "directionCodeRef": "bb09f385-6e86-4627-b44c-d8c018b73cfc"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 29150.00,
+                        "basePrice": 19130,
+                        "equivalentBasePrice": 19130,
+                        "taxes": 10020,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 24368.00,
+                        "basePrice": 14348,
+                        "equivalentBasePrice": 14348,
+                        "taxes": 10020,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3458.00,
+                        "basePrice": 1913,
+                        "equivalentBasePrice": 1913,
+                        "taxes": 1545,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "a83e1458-77b7-4242-95a8-4c196fc6f4ec",
+                "totalPrice": 86126.00,
+                "basePrice": 54521,
+                "eqivqlBasePrice": 54521,
+                "taxes": 31605,
+                "platingCarrierName": "M/S Airblue Ltd",
+                "platingCarrier": "PA",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": true,
+                "bookable": true,
+                "avlSrc": "138",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "be703022-8791-4d41-a01c-d6effe6f2079"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 9:35:00 AM",
+                                "arrival": "7/28/2026 11:35:00 AM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-671",
+                                "segmentCodeRef": "02b55af8-15c5-4f9b-b495-61237cefa491",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 9:35:00 AM",
+                                        "arrival": "7/28/2026 11:35:00 AM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 23,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 23,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Value",
+                        "directionCodeRef": "fa7a3b52-f284-43c7-81e6-b9339bab8da3"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 27929.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 5988.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 27929.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 5988.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "96d08e0b-9908-453c-9e55-45940b3621ce",
+                "totalPrice": 87525.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 19511.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "e6218227-d749-4baa-b66b-8a213237632a"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 11:45:00 PM",
+                                "arrival": "7/29/2026 1:45:00 AM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-679",
+                                "segmentCodeRef": "b0d8a62a-a07d-4a47-9ea1-01d4416de676",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 11:45:00 PM",
+                                        "arrival": "7/29/2026 1:45:00 AM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 23,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 23,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Value",
+                        "directionCodeRef": "5a8b8e2b-0b2c-49f6-8a03-be34ecf071dc"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 27929.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 5988.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 27929.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 5988.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "60b73082-72a3-4314-93f9-f5bd1bb9bb2a",
+                "totalPrice": 87525.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 19511.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "b027c8a2-1f28-4d07-ad35-1a6b47e7b4d8"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 9:20:00 PM",
+                                "arrival": "7/28/2026 11:20:00 PM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-675",
+                                "segmentCodeRef": "c2bf8991-97ff-4bf1-8017-b694365a64fe",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 9:20:00 PM",
+                                        "arrival": "7/28/2026 11:20:00 PM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 23,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 23,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Value",
+                        "directionCodeRef": "029f7abb-d94c-45db-addc-6241c6a3d1eb"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 27929.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 5988.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 27929.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 5988.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "b97fc8e3-33f0-4a28-9b89-17c127de9b1e",
+                "totalPrice": 87525.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 19511.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "172a2235-9f9f-445b-935a-dc25c43c87f9"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 5:15:00 PM",
+                                "arrival": "7/28/2026 7:15:00 PM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-673",
+                                "segmentCodeRef": "095462a9-2b78-47eb-b0f9-17f448f78c60",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 5:15:00 PM",
+                                        "arrival": "7/28/2026 7:15:00 PM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 23,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 23,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Value",
+                        "directionCodeRef": "5dacb0fe-fb25-411c-84d9-87f44e19f776"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 27929.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 5988.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 27929.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 5988.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "330c7295-59c7-4b5f-a020-732539e97a98",
+                "totalPrice": 87525.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 19511.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "c831289f-17d7-421e-8a97-f1519e78fefb"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 2:45:00 PM",
+                                "arrival": "7/28/2026 4:45:00 PM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-681",
+                                "segmentCodeRef": "4528e534-6b8b-4a92-a9ae-5d658299568b",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 2:45:00 PM",
+                                        "arrival": "7/28/2026 4:45:00 PM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 23,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 23,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Value",
+                        "directionCodeRef": "555e0b18-ad7f-4400-88c1-d366b7d1bb11"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 27929.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 5988.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 27929.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 5988.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "9b0f3c6a-2757-4346-93b3-fca8f5bc98ef",
+                "totalPrice": 87525.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 19511.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "eed58e1f-f986-46b4-bafb-591696cec625"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 9:35:00 AM",
+                                "arrival": "7/28/2026 11:35:00 AM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-671",
+                                "segmentCodeRef": "959aadb0-9e8e-4087-a0b6-6cafcf09b704",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 9:35:00 AM",
+                                        "arrival": "7/28/2026 11:35:00 AM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 46,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 46,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Ultimate",
+                        "directionCodeRef": "72514109-635e-49bb-86a7-b1cba303a48c"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 30279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 8338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 30279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 8338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "ed52856e-10ec-47bf-a5d9-95f53d71848d",
+                "totalPrice": 94575.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 26561.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "e6218227-d749-4baa-b66b-8a213237632a"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 11:45:00 PM",
+                                "arrival": "7/29/2026 1:45:00 AM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-679",
+                                "segmentCodeRef": "404da73b-5745-43e6-9d32-7e0cf2e1f093",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 11:45:00 PM",
+                                        "arrival": "7/29/2026 1:45:00 AM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 46,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 46,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Ultimate",
+                        "directionCodeRef": "c0bd9f3d-d25b-4148-a29a-8e12b2ca4727"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 30279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 8338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 30279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 8338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "870c3cbd-cc99-44f1-9afc-83a91c58fe88",
+                "totalPrice": 94575.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 26561.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "b027c8a2-1f28-4d07-ad35-1a6b47e7b4d8"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 9:20:00 PM",
+                                "arrival": "7/28/2026 11:20:00 PM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-675",
+                                "segmentCodeRef": "c5a51f6f-5c1d-4c6b-8d32-6b47ba7d0a20",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 9:20:00 PM",
+                                        "arrival": "7/28/2026 11:20:00 PM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 46,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 46,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Ultimate",
+                        "directionCodeRef": "c73d92b1-8125-4a08-91f6-1f296644a7be"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 30279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 8338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 30279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 8338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "1438018d-1ea2-4143-99b2-284669767247",
+                "totalPrice": 94575.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 26561.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "172a2235-9f9f-445b-935a-dc25c43c87f9"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 5:15:00 PM",
+                                "arrival": "7/28/2026 7:15:00 PM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-673",
+                                "segmentCodeRef": "fd0df97e-4430-408b-82d7-f0af48a4948d",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 5:15:00 PM",
+                                        "arrival": "7/28/2026 7:15:00 PM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 46,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 46,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Ultimate",
+                        "directionCodeRef": "82c9c7dc-e7e2-4278-9039-f677909ad444"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 30279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 8338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 30279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 8338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "bf17d63f-5117-45d2-9346-a201d0cd627c",
+                "totalPrice": 94575.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 26561.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "c831289f-17d7-421e-8a97-f1519e78fefb"
+            },
+            {
+                "directions": [
+                    {
+                        "origin": "ISB",
+                        "originName": "International",
+                        "destination": "KHI",
+                        "destinationName": "Jinnah Intl",
+                        "platingCarrierCode": "9P",
+                        "platingCarrierName": "Fly Jinnah",
+                        "stops": 0,
+                        "segments": [
+                            {
+                                "origin": "ISB",
+                                "originName": "International",
+                                "destination": "KHI",
+                                "destinationName": "Jinnah Intl",
+                                "group": 0,
+                                "departure": "7/28/2026 2:45:00 PM",
+                                "arrival": "7/28/2026 4:45:00 PM",
+                                "airline": "Fly Jinnah",
+                                "flightNumber": "9P-681",
+                                "segmentCodeRef": "b5b59e94-920c-4974-b16e-3cffc16254a7",
+                                "details": [
+                                    {
+                                        "origin": "ISB",
+                                        "originName": "International",
+                                        "destination": "KHI",
+                                        "destinationName": "Jinnah Intl",
+                                        "originTerminal": "",
+                                        "destinationTerminal": "",
+                                        "departure": "7/28/2026 2:45:00 PM",
+                                        "arrival": "7/28/2026 4:45:00 PM",
+                                        "flightTime": "120",
+                                        "travelTime": "120",
+                                        "equipment": "320"
+                                    }
+                                ],
+                                "serviceClass": "Economy",
+                                "plane": [
+                                    "320"
+                                ],
+                                "duration": [
+                                    "120"
+                                ],
+                                "techStops": [
+                                    0
+                                ],
+                                "bookingClass": "Y",
+                                "bookingCount": "",
+                                "baggage": [
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 46,
+                                        "passengerTypeCode": "ADT"
+                                    },
+                                    {
+                                        "units": "Kilograms",
+                                        "amount": 46,
+                                        "passengerTypeCode": "CNN"
+                                    },
+                                    {
+                                        "units": "Nil",
+                                        "amount": 0,
+                                        "passengerTypeCode": "INF"
+                                    }
+                                ],
+                                "fareBasisCode": "P",
+                                "airlineCode": "9P"
+                            }
+                        ],
+                        "directionTotalTime": "120",
+                        "brandName": "Ultimate",
+                        "directionCodeRef": "77ddc16e-ec6f-4e8c-98bd-6106eec01665"
+                    }
+                ],
+                "bookingComponent": null,
+                "originalPriceComponent": null,
+                "passengerFares": [
+                    {
+                        "passengerType": "ADT",
+                        "passengerCount": 2,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 30279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 8338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "CNN",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 30279.00,
+                        "basePrice": 21939.60,
+                        "equivalentBasePrice": 21939.60,
+                        "taxes": 8338.96,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    },
+                    {
+                        "passengerType": "INF",
+                        "passengerCount": 1,
+                        "discountPrice": 0,
+                        "ait": 0,
+                        "totalPrice": 3739.00,
+                        "basePrice": 2193.96,
+                        "equivalentBasePrice": 2193.96,
+                        "taxes": 1545.00,
+                        "serviceCharge": 0,
+                        "taxesBreakdown": null
+                    }
+                ],
+                "uniqueTransID": "cf84f94c-8b97-404b-83aa-e927f3272644",
+                "itemCodeRef": "394f0910-5400-406f-8686-7a38799aded2",
+                "totalPrice": 94575.00,
+                "basePrice": 68012.76,
+                "eqivqlBasePrice": 68012.76,
+                "taxes": 26561.88,
+                "platingCarrierName": "Fly Jinnah",
+                "platingCarrier": "9P",
+                "fareType": "",
+                "fareTypeDec": "",
+                "refundable": false,
+                "bookable": true,
+                "avlSrc": "136",
+                "isBrandedFare": true,
+                "parentIDofBrandedFare": "eed58e1f-f986-46b4-bafb-591696cec625"
+            }
+        ],
+        "airlineFilters": null,
+        "minMaxPrice": null,
+        "stops": null,
+        "totalFlights": 0,
+        "currency": "PKR",
+        "finalResponseTime": null
+    }
+} 

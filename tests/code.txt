@@ -1,0 +1,320 @@
+import { test, expect, Page } from '@playwright/test';
+
+test.describe.configure({ mode: 'serial' });
+
+const validUsername = 'demodev';
+const validPassword = 'uhi*d6ue';
+
+async function waitForPortalLoader(page: Page) {
+  await page.waitForLoadState('domcontentloaded');
+
+  await page
+    .locator('img[alt="Loading..."]')
+    .waitFor({
+      state: 'hidden',
+      timeout: 60000,
+    })
+    .catch(() => {});
+}
+
+async function openPortal(page: Page) {
+  await page.goto('/');
+
+  await waitForPortalLoader(page);
+
+  console.log('Portal opened');
+}
+
+async function login(
+  page: Page,
+  username: string,
+  password: string
+) {
+  await page.locator('[placeholder="Enter Login ID"]').waitFor({
+    state: 'visible',
+    timeout: 30000,
+  });
+
+  await page.fill(
+    '[placeholder="Enter Login ID"]',
+    username
+  );
+
+  await page.fill(
+    '[placeholder="Enter Password"]',
+    password
+  );
+
+  await page.click('button[type="submit"]');
+
+  console.log('Login button clicked');
+}
+
+async function waitForDashboard(page: Page) {
+  await page.waitForURL(/dashboard/i, {
+    timeout: 60000,
+  });
+
+  await waitForPortalLoader(page);
+
+  await page.locator('.flightsearch').waitFor({
+    state: 'visible',
+    timeout: 60000,
+  });
+
+  console.log('Dashboard loaded');
+}
+
+async function handleUpdatePopup(page: Page) {
+  try {
+    const updateButton = page.locator(
+      'button.swal2-confirm:has-text("Update")'
+    );
+
+    await updateButton.waitFor({
+      state: 'visible',
+      timeout: 10000,
+    });
+
+    console.log('Update popup appeared');
+
+    // old dashboard
+    const oldFlightSearch = page.locator('.flightsearch');
+
+    // click update
+    await updateButton.click();
+
+    console.log('Clicked update');
+
+    // wait old dashboard removed
+    await oldFlightSearch
+      .waitFor({
+        state: 'detached',
+        timeout: 120000,
+      })
+      .catch(async () => {
+        await oldFlightSearch
+          .waitFor({
+            state: 'hidden',
+            timeout: 120000,
+          })
+          .catch(() => {});
+      });
+
+    console.log('Old dashboard removed');
+
+    // wait new dashboard
+    const newFlightSearch = page.locator('.flightsearch');
+
+    await newFlightSearch.waitFor({
+      state: 'visible',
+      timeout: 120000,
+    });
+
+    console.log('New dashboard appeared');
+
+    // wait flightbox ready
+    const fromField = page.locator('.flightbox').first();
+
+    await expect(fromField).toBeVisible({
+      timeout: 60000,
+    });
+
+    // stabilization
+    await page.waitForTimeout(10000);
+
+    console.log('Portal fully reloaded');
+  } catch {
+    console.log('No update popup appeared');
+  }
+}
+
+async function selectAirport(
+  page: Page,
+  selector: string,
+  airportCode: string
+) {
+  const input = page.locator(selector);
+
+  await input.waitFor({
+    state: 'visible',
+    timeout: 30000,
+  });
+
+  await input.click();
+
+  await input.fill('');
+
+  await input.type(airportCode, {
+    delay: 200,
+  });
+
+  console.log(`Typing airport: ${airportCode}`);
+
+  // get dynamic dropdown id
+  const listboxId = await input.getAttribute('aria-controls');
+
+  if (!listboxId) {
+    throw new Error(`Dropdown not found for ${airportCode}`);
+  }
+
+  // IMPORTANT FIX
+  // use attribute selector instead of #id
+  const dropdown = page.locator(
+    `[id="${listboxId}"]`
+  );
+
+  await dropdown.waitFor({
+    state: 'visible',
+    timeout: 30000,
+  });
+
+  const option = dropdown
+    .locator(
+      '[role="option"], li.k-list-item, .k-list-item'
+    )
+    .filter({
+      hasText: airportCode,
+    })
+    .first();
+
+  await option.waitFor({
+    state: 'visible',
+    timeout: 30000,
+  });
+
+  await option.click();
+
+  console.log(`${airportCode} selected`);
+}
+
+async function selectDepartureDate(page: Page) {
+  const calendar = page.locator('.k-calendar').first();
+
+  await calendar.waitFor({
+    state: 'visible',
+    timeout: 30000,
+  });
+
+  await calendar
+    .locator(
+      'td.k-calendar-td:not(.k-disabled):not(.k-other-month) span.k-link'
+    )
+    .first()
+    .click();
+
+  console.log('Departure date selected');
+}
+
+async function clickSearch(page: Page) {
+  const searchButton = page
+    .locator('button.btn.btn-primary')
+    .filter({
+      hasText: /^Search$/,
+    });
+
+  // close calendar popup if still open
+  await page.keyboard.press('Escape').catch(() => {});
+
+  // small stabilization
+  await page.waitForTimeout(1000);
+
+  // scroll button into view
+  await searchButton.scrollIntoViewIfNeeded();
+
+  // wait visible
+  await expect(searchButton).toBeVisible({
+    timeout: 30000,
+  });
+
+  // force click because Telerik overlays sometimes block
+  await searchButton.click({
+    force: true,
+  });
+
+  console.log('Search button clicked');
+}
+
+async function expectLoginFailed(page: Page) {
+  await page.waitForTimeout(4000);
+
+  await expect(page).not.toHaveURL(/dashboard/i);
+
+  await expect(
+    page.locator('[placeholder="Enter Login ID"]')
+  ).toBeVisible({
+    timeout: 15000,
+  });
+
+  console.log('Login failed as expected');
+}
+
+// ---------------- TESTS ----------------
+
+test('Login fails with wrong username and correct password', async ({
+  page,
+}) => {
+  await openPortal(page);
+
+  await login(page, 'wronguser', validPassword);
+
+  await expectLoginFailed(page);
+});
+
+test('Login fails with correct username and wrong password', async ({
+  page,
+}) => {
+  await openPortal(page);
+
+  await login(page, validUsername, 'wrongpassword');
+
+  await expectLoginFailed(page);
+});
+
+test('Login succeeds and searches flight ISB to DXB', async ({
+  page,
+}) => {
+  // OPEN PORTAL
+  await openPortal(page);
+
+  // LOGIN
+  await login(page, validUsername, validPassword);
+
+  // WAIT DASHBOARD
+  await waitForDashboard(page);
+
+  // HANDLE UPDATE POPUP
+  await handleUpdatePopup(page);
+
+  // CLICK FROM FIELD
+  await page.locator('.flightbox').first().click();
+
+  // SELECT FROM AIRPORT
+  await selectAirport(
+    page,
+    '#from-autocomplete-0',
+    'ISB'
+  );
+
+  // SELECT TO AIRPORT
+  await selectAirport(
+    page,
+    '#to-autocomplete-0',
+    'DXB'
+  );
+
+  // SELECT DATE
+  await selectDepartureDate(page);
+
+  // CLICK SEARCH
+  await clickSearch(page);
+
+  // VERIFY RESULT PAGE
+  await page.waitForURL(/flight/i, {
+    timeout: 120000,
+  });
+
+  await expect(page).toHaveURL(/flight/i);
+
+  console.log('Flight results loaded successfully');
+});
