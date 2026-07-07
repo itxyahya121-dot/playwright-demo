@@ -9,7 +9,7 @@ export default defineConfig({
 
   use: {
     baseURL: 'https://b2b.dunyaaviation.com/',
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     trace: 'on-first-retry',
